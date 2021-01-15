@@ -49,3 +49,9 @@ Nos permite movernos entre los branch
 Nos ubicamos en el branch que queremos actualizar e indicamos el branch con el que queremos actualizarlo
 
     git merge <branch_referencia>
+---
+## git push cuando creamos un nuevo branch desde consola
+fatal: The current branch minina has no upstream branch.
+To push the current branch and set the remote as upstream, use:
+
+    git push --set-upstream origin minina
