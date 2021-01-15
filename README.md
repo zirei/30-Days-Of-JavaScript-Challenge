@@ -31,4 +31,21 @@ Para subir al branch actual el ultimo commit realizado en la maquina.
     git push
 ---
 ## git pull
-Para descargar la 
+Para descargar la ultima version del branch que queramos.
+
+    git pull
+---
+## git branch
+Para crear una nueva rama
+
+    git branch <nombre_rama>
+---
+## git checkout
+Nos permite movernos entre los branch
+
+    git checkout <nombre_branch_desesas_ingresar>
+---
+## git merge(combinar dos branch)
+Nos ubicamos en el branch que queremos actualizar e indicamos el branch con el que queremos actualizarlo
+
+    git merge <branch_referencia>
