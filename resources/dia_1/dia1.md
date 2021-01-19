@@ -1,5 +1,7 @@
-## Holi peque
+# Day 1 Introduction
 
-![prueba](images/primera.png)
+## Navigator
+
+![Navigator](images/1_description_of_browser.png)
 
 
