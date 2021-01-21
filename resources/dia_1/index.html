@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>30DaysOfScript:Inline Script</title>
+    <!-- Internal script head -->
+    <script>
+        console.log('Internal Script can be use in the head')
+    </script>
+</head>
+
+<body>
+    <!-- Inline script -->
+    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+
+    <!-- Internal script body -->
+    <script>
+        console.log('Internal Script can be use in the body')
+    </script>
+    <br>
+    <!-- External script -->
+        <!-- it could be in the header or in the body // Here is the recommended place
+        to put the external script -->
+    <script src="introduction.js"></script>
+    
+    <!-- Multiple External script -->
+    <script src="./hellopeque.js"></script>
+    <script src="./introduction.js"></script>
+
+    <!-- Data Types Check -->
+    <script>
+        console.log(typeof 'Asabeneh') // string
+        console.log(typeof 5) // number
+        console.log(typeof true) // boolean
+        console.log(typeof null) // object type
+        console.log(typeof undefined) // undefined
+    </script>
+    
+    <!-- Declaring different variables of different data types -->
+    <script>
+        let firstName = 'Asabeneh'
+        let lastName = 'Yetayeh'
+        let country = 'Finland'
+        let city = 'Helsinki'
+        let age = 100
+        let isMarried = true
+
+        console.log(firstName, lastName, country, city, age, isMarried)
+    </script>
+
+    <!-- Variables can also be declaring in one line separated by comma -->
+    <script>
+        let name = 'Peque',
+            job = 'Developer',
+            live = 'Medallo'
+        console.log(name, job, live)
+    </script>
+        
+</body>
+
+</html>
