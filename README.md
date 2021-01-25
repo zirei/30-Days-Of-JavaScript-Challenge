@@ -1,4 +1,4 @@
-# LosPeques
+# 30-Days-Of-JavaScript-Challenge
 
 We are legends!
 
@@ -86,4 +86,3 @@ fatal: The current branch minina has no upstream branch.
 To push the current branch and set the remote as upstream, use:
 
     git push --set-upstream origin minina
-
